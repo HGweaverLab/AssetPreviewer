@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"e2f9809ad88140a9","type":"text","text":"## Questions","x":-1836,"y":-30,"width":250,"height":60},
+		{"id":"9d6aeee50f9b4509","type":"text","text":"## Research","x":-516,"y":-30,"width":250,"height":60},
+		{"id":"517b5862fb04af6a","type":"text","text":"# {Tool_Name}","x":-516,"y":-360,"width":250,"height":60},
+		{"id":"99a902b4c930b1e6","type":"text","text":"## To-Do","x":1440,"y":-30,"width":250,"height":60},
+		{"id":"b9fcc7b77981439a","type":"text","text":"### Main Goal\n- Implement `Character Asset Previewer` that allows user to review various character before starting asset-work\n### Requirements\n- Categorize and Organize components\n- Preivew a combination\n\t- Combine various components\n\t- Preview the results of combination of components\n- Export the result\n\t- After checking the result, export asset to a list of DCC below\n\t\t- Maya\n\t\t- Max\n\t\t- (challenge) Unreal\n\t\t- (challenge) Standalone \n### Components\n- hair\n- human - skin color / gender\n- Top\n- Bottom\n- Shoes\n- Utils\n\t- Materials\n\t- Texture Resizer\n\n### Problems\n- How to create node-base view\n- How to make it easy for user to categorize components - which view is good for this\n\n\n### Ideas\n- Regarding exporting and importing asset, **Make one more tool called **`Asset Loader`\n\t- After Checking and Deciding which previews are good, Save and Organize the results under category with several metadata, like date / project name / some comments etc ..\n\t- Export Asset from `Character Asset Previewer` as a Standalone tool, and then Load the asset from `Asset Loader` within DCC (Maya / Max / Unreal)\n- Idea on `Components Selection View`  and `Preview view`\n\t- ![[Main_view_or_Preview_at_once.png]]\n- Add component category - ex) ring...\n- AI process","x":-761,"y":100,"width":740,"height":1640},
+		{"id":"82ff0502b9c8ee31","type":"text","text":"### 07.19.25 ( week 1 )\n- ~~Create Repo under Github Organization - HGweaverLab~~\n\t- https://github.com/orgs/HGweaverLab\n- Create Repo\n- Push obsidian note\n- Discuss and Organize To-Do items\n- Do R&D on `Preveiw view`\n","x":1204,"y":120,"width":723,"height":260},
+		{"id":"ad85899c67ca48af","type":"text","text":"### 07.20.25 - 07.26.25 ( week 2 )\n","x":1204,"y":440,"width":723,"height":80},
+		{"id":"bc0e5add58f2e065","type":"text","text":"### 07.27.25 - 08.02.25 ( week 3 )\n","x":1204,"y":600,"width":723,"height":80},
+		{"id":"f7ea1623d5540779","type":"text","text":"### 08.03.25 - 08.09.25 ( week 4 )\n","x":1204,"y":760,"width":723,"height":80}
+	],
+	"edges":[
+		{"id":"af91637cdac6b8fe","fromNode":"517b5862fb04af6a","fromSide":"bottom","toNode":"e2f9809ad88140a9","toSide":"top"},
+		{"id":"6e3372d9566d8120","fromNode":"517b5862fb04af6a","fromSide":"bottom","toNode":"9d6aeee50f9b4509","toSide":"top"},
+		{"id":"4fcfc838481aa9f0","fromNode":"517b5862fb04af6a","fromSide":"bottom","toNode":"99a902b4c930b1e6","toSide":"top"},
+		{"id":"c6df28fda0b138d8","fromNode":"9d6aeee50f9b4509","fromSide":"bottom","toNode":"b9fcc7b77981439a","toSide":"top"},
+		{"id":"c1bf826c9df13cc3","fromNode":"99a902b4c930b1e6","fromSide":"bottom","toNode":"82ff0502b9c8ee31","toSide":"top"},
+		{"id":"7f884d74c32dde26","fromNode":"82ff0502b9c8ee31","fromSide":"bottom","toNode":"ad85899c67ca48af","toSide":"top"},
+		{"id":"d3cdc024ee2b2ef9","fromNode":"ad85899c67ca48af","fromSide":"bottom","toNode":"bc0e5add58f2e065","toSide":"top"},
+		{"id":"d38e0d13a97a4730","fromNode":"bc0e5add58f2e065","fromSide":"bottom","toNode":"f7ea1623d5540779","toSide":"top"}
+	]
+}
